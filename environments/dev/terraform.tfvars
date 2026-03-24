@@ -117,7 +117,7 @@ eks_endpoint_private_access = true
 eks_endpoint_public_access  = true
 
 eks_public_access_cidrs = [
-  "121.160.42.62"
+  "121.160.42.62/32"
 ]
 
 eks_capacity_type  = "ON_DEMAND"
